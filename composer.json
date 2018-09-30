@@ -1,0 +1,25 @@
+{
+    "name": "novam-modules/inventory",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admin\\Inventory\\Providers\\InventoryServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Inventory\\": ""
+        }
+    }
+}
