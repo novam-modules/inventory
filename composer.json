@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Admin\\Inventory\\Providers\\InventoryServiceProvider"
+                "Modules\\Inventory\\Providers\\InventoryServiceProvider"
             ],
             "aliases": {
                 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Admin\\Inventory\\": ""
+            "Modules\\Inventory\\": ""
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Inventory\Http\Controllers;
+namespace Modules\Inventory\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
