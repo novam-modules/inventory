@@ -18,9 +18,8 @@
 | });
 */
 
-foreach(user_routes() as $prefix){
-
-    Route::prefix($prefix.'/inventory')->group(function() {
-        Route::get('/', 'InventoryController@index');
-    });
-}
+Route::group([
+    'prefix' => user_route(), 'middleware' => ['web', 'admin']
+    ], function() {
+    Route::resource('inventory', InventoryController::class);
+});
