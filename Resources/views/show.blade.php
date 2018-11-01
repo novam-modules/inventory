@@ -1,9 +1,9 @@
-@extends('$LOWER_NAME$::layouts.master')
+@extends('inventory::layouts.master')
 
 @section('content')
     <h1>Hello World :: Show</h1>
 
     <p>
-        This view is loaded from module: {!! config('$LOWER_NAME$.name') !!}
+        This view is loaded from module: {!! config('inventory.name') !!}
     </p>
 @stop
